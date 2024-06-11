@@ -1,0 +1,165 @@
+body{
+    background: rgba(102, 186, 244, 1);
+    margin: 0;
+}
+.Images{
+    pointer-events: none;
+    position: absolute;
+    z-index: 9999; 
+}
+
+.img1{
+ width: 80%;
+ margin-top: 10%;
+ margin-left: -15%;   
+}
+
+.img2{
+    margin-top: -10%;
+    margin-left: 82%;
+}
+.img3{
+    margin-top: -12%;
+    margin-left: -20%;
+}
+
+header{
+    background: rgba(50, 50, 50, 1);
+    height: 30px;
+    
+}
+.container{
+    background: rgba(67, 156, 238, 1);
+    width: 70%;
+    border-radius: 1.5em;
+    margin: 10% 15%;
+    height: 110em;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+}
+.info{
+    margin-top: -30%;
+    text-align: center;
+}
+
+.info .info-title{
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.info .info-desc{
+    font-family: "Jost", sans-serif;
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    margin: 0 15%;
+}
+
+.coordForm{
+    padding-top: 6%;
+}
+
+.coordForm_content{
+    text-align: center;
+}
+.coordForm_content .coordForm_title{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: aliceblue;
+
+}
+
+.coordForm_TextPlaces{
+
+}
+
+.coordForm_TextPlaces .coordForm_FirstCoords{
+    display: flex;
+    width: 70%;
+    margin: 0 15%;
+    flex-direction: row;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.coordForm_TextPlaces .coordForm_FirstCoords .coordForm_TextPlace1{
+    width: 25%;
+    height: 30px;
+    background: white;
+    border: 0;
+    border-radius: 1em;
+}
+
+.coordForm_TextPlaces .coordForm_SecondCoords{
+    display: flex;
+    width: 70%;
+    margin: 0 15%;
+    flex-direction: row;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+.coordForm_TextPlaces .coordForm_SecondCoords .coordForm_TextPlace2{
+    width: 25%;
+    height: 30px;
+    background: white;
+    border: 0;
+    border-radius: 1em;
+}
+
+.coordForm_btn input{
+    background: rgba(53, 131, 203, 1);
+    color: rgba(181, 217, 250, 1);
+    margin-top: 2em;
+    border: 0;
+    width: 10%;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.coordForm_btn input:hover{
+    background: rgb(48, 115, 179);
+}
+
+footer {
+    background: rgba(50, 50, 50, 1);
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.coordForm-result{
+    height: 15em;
+    background-color: rgb(59, 138, 212);
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.coordForm-result h2{
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.coordForm-result p{
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.footer-img img{
+    width: 3em;
+}
